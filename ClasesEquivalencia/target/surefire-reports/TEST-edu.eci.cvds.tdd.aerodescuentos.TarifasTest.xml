@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.013" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.097" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,9 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="validateUnderage" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateMustbeDisjoint" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateDuplicate" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateInvalidage" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateDead" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateUnderAge" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.011"/>
+  <testcase name="validateBothUnderAge" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validateOverAge" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validateTarifa" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validateAntelacion" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
+  <testcase name="validateBothOverAge" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
 </testsuite>
